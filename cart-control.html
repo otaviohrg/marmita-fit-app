@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/cart-control.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <script src="/scripts/cart-control.js" async></script>
+</head>
+<body>
+    <div id="page-create-point">
+        <header>
+            <img src="/assets/logo-marmita.jpeg" alt="Logomarca"width="100" height="100">
+            <a href="http://google.com.br">
+                <span> </span>
+                Voltar para Carrinho
+            </a>
+        </header>
+        <form action="">
+            <h1>Organize seus Pedidos</h1>
+            <fieldset>
+                <legend>
+                    <button type = "button" class="btn-new-order">Novo Pedido</button>
+                </legend>
+                <div class="items-grid">
+                    <li class="order">
+                        <div>
+                            <span>- Ervilha</span>
+                            <span>- Purê de Batata doce</span>
+                            <span>- Fricassê de Frango</span>
+                        </div>
+                        <div class="button-order">
+                            <button class="btn btn-edit" style="background-color:#FFBE40"> Editar </button>
+                            <button class="btn btn-rm">Excluir</button>
+                        </div>
+                    </li>
+                    <li data-id="1" class="order">
+                        <div>
+                            <span>- Abóbora</span>
+                            <span>- Arroz integral</span>
+                            <span>- Patinho Moído</span>
+                        </div>
+                        <div class="button-order">
+                            <button class="btn btn-edit" style="background-color:#FFBE40"> Editar </button>
+                            <button class="btn btn-rm">Excluir</button>
+                        </div>
+                    </li>
+                </div>
+            </fieldset>
+            <button type = "submit">Salvar Pedido</button>
+        </form>
+    </div>
+</body>
+</html>

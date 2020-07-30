@@ -1,6 +1,6 @@
 :root{
     --title-color: #322153;
-    --primary-color: #34cb79;
+    --primary-color: #24cb79;
 }
 *{
     margin: 0;
@@ -11,7 +11,7 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background: #88fc03;
+    background: #B3CC57;
     -webkit-font-smoothing: antialiased;
 }
 a{
@@ -20,8 +20,3 @@ a{
 h1,h2,h3,h4,h5,h6{
     font-family: ubuntu;
 }
-/* Comentarios
-    Box model
-    toda caixa tem largura altura preenchimento, cor, fundo, espaçamento,
-    maneira vista pelo html(display)
-*/
