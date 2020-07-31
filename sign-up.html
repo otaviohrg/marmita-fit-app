@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto de coleta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/sign-up.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+</head>
+<body>
+    <div id="login">
+        <form action="">
+            <h1>Crie seu cadastro</h1>
+            <fieldset>
+                <div class="field">
+                    <label for="name">Nome completo</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" required>
+                    </div>
+                    <div class="field">
+                        <label for="wpp">Telefone celular (Whatsapp)</label>
+                        <input type="text" name="wpp"required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="address">Endereço</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="number">Número/Complemento</label>
+                        <input type="text" name="address2"required>
+                    </div>
+                    <div class="field">
+                        <label for="neighborhood">Bairro</label>
+                        <input type="text" name="address" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Cidade">Cidade</label>
+                    <select name="cidade">
+                        <option value="">Selecione sua cidade</option>
+                        <option value="">Jacareí</option>
+                        <option value="">São José dos Campos</option>
+                    </select>
+                    <input type="hidden" name="cidade" required>
+                </div>
+            </fieldset>
+            
+            <a href="login.html" class="button">Registrar</a>
+        </form>
+    </div>
+    <script src="/scripts/sign-up.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+#page-home{
+    height: 180vh;
+    background-position: center;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+}
+#page-home .content{
+    margin: 0 auto;
+    width: 100%;
+    height: 60%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/logo-marmita.jpeg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 400px;
+}
+#page-home header{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page-home header a{
+    display: flex;
+    color: var(--title-color);
+    text-decoration: none;
+    font-size: 25px;
+}
+#page-home header a span{
+    display: flex;
+    margin-right: 16px;
+    background-image: url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
+#page-home main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#page-home main{
+    font-size: 40px;
+    color: var(--title-color);
+}
+#page-home main p {
+    flex: 1;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 24px;
+}
+#page-home main a {
+    height: 62px;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background: var(--primary-color);
+    transition: 400ms;
+}
+#page-home main a:hover{
+    background-color: #2fb86e;
+}
+#page-home main a span{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 62px;
+    height: 62px;
+    background-color: rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page-home main a span::after{
+    content: "";
+    background-image: url('/assets/search.svg');
+    width: 20px;
+    height: 20px;
+}
+#page-home main a strong{
+    flex: 1;
+    color: white;
+    text-align: center;
+}
